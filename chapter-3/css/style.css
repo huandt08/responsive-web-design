@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.Wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.Header {
+    height: 150px;
+    background-color: #038C5A;
+    width: 100%;
+}
+
+.WrapMiddle {
+    width: 100%;
+    font-size: 0;
+}
+
+.Left {
+    height: 625px;
+    background-color: #03A66A;
+    position: absolute;
+    /* width: 20.8333333%; */
+    width: 200px;
+    left: -200px;
+    display: inline-block;
+    font-size: .9rem;
+    transition: transform .3s;
+}
+
+@media screen and (min-width: 40rem) {
+    .Left {
+        width: 20.8333333%;
+        left: 0;
+        position: relative;
+    }
+}
+
+.Middle {
+    height: 625px;
+    width: 68.75%;
+    background-color: #bbbf90;
+    display: inline-block;
+}
+
+.Right {
+    height: 625px;
+    width: 10.4166667%;
+    background-color: #03A66A;
+    display: inline-block;
+}
+
+.Footer {
+    height: 200px;
+    width: 100%;
+    background-color: #025059;
+}
