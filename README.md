@@ -25,3 +25,6 @@ if flow-direction = colunm, main axis is vertical axis, cross axis is horizontal
   - center
   - space-between
   - space-around
+
+### The flex property
+flex: grow shrink basic

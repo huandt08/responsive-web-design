@@ -1,0 +1,25 @@
+.FlexWrapper {
+    display: flex;
+    background-color: indigo;
+    border: 1px solid #ebebeb;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.FlexItem {
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    /* flex: 1 0 30px; */
+    border: 1px solid #2300AB;
+    box-sizing: border-box;
+}
+
+.FlexOne {
+    flex: 1.5 1 auto;
+}
+
+.FlexTwo, .FlexThree {
+    flex: 1 0 auto;
+}
