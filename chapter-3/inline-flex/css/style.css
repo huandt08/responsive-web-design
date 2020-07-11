@@ -1,0 +1,10 @@
+.InlineFlex {
+    display: inline-flex;
+    height: 100px;
+    background-color: indigo;
+    color: #ebebeb;
+    align-items: center;
+    padding: 0 4px;
+    text-decoration: none;
+    border-radius: 3px;
+}
