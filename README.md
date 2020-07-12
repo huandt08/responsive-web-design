@@ -57,3 +57,25 @@ And browser might decide to use 900w image wide - scones-medium.jpg
 - Alternative to the browser deciding is use the *picture* element.
 
 ### Art direction with the picture element
+```html
+<picture>
+  <source media="(min-width: 30em)" srcset="cake-table.jpg">
+  <source media="(min-width: 60em)" srcset="cake-shop.jpg">
+  <img src="scones.jpg" alt="One way or another, you WILL get cake.">
+</picture>
+```
+- *picture* is wrapper
+- style image by *img* tag
+- srcset works exactly the same as previous example
+- *img* provide fallback image
+- Key different is *source* tag. tell browser which image is need to load.
+
+### Facilitate new-fangled image formats
+**WEBP**
+```html
+<picture>
+  <source type="image/webp" srcset="scones-baby-yeah.webp">
+  <img src="scones-baby-yeah.jpg" alt="Again, you WILL eat cake.">
+</picture>
+
+```
