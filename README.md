@@ -79,3 +79,21 @@ And browser might decide to use 900w image wide - scones-medium.jpg
 </picture>
 
 ```
+
+## 4. HTML 5 for Responsive Web Design
+### HTML5 markup - understood by all mordern browsers
+All modern browsers understand the new sematic elements of HTML 5
+Event older version of IE can be served a tiny 'polyfill' to allow it render these new elements
+
+### Starting an HTML 5 page the right way
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+</html>
+```
+* DOCTYPE means the type of document to communicate with browser
+* html tag and lang attribute: root of document and language for the page
+
