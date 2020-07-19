@@ -96,4 +96,28 @@ Event older version of IE can be served a tiny 'polyfill' to allow it render the
 ```
 * DOCTYPE means the type of document to communicate with browser
 * html tag and lang attribute: root of document and language for the page
+* meta charset define encoding
 
+### Mighty \<a\> tag
+
+- HTML 4.01
+```html
+<h2><a href="index.html">The home page</a></h2>
+<p><a href="index.html"> This paragraph also links to the home page</a></p>
+<a href="index.html"><img src="home-page.png" alt="home-slide" /></a>
+```
+- HTML 5
+```html
+<a href="index.html">
+  <h2>The home page</h2>
+  <p>This paragraph also links to the home page</p>
+  <img src="home-page.png" alt="home-slide" />
+</a>
+```
+
+Limitation:
+- Can't wrap a tag by another a tag
+- can't wrap interactive elements (buttons, ...) by a tag
+- Can't wrap a form with a tag
+
+### New sematic elements in HTML 5
