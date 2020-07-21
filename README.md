@@ -121,3 +121,42 @@ Limitation:
 - Can't wrap a form with a tag
 
 ### New sematic elements in HTML 5
+#### The \<main\> element
+- Contains the main block of content
+- Main content area includes that is unique to that document and
+excludes content that is repeated across a set of documents: navigation links, copy right information, site logos, banners.
+
+#### The \<section\> element
+- Define a generic section of a document
+Ex: one section for contact information, another section for new feeds,...
+
+#### The \<nav\> element
+- Is used to wrap major navigation links to other pages or parts within the same page.
+- Usually markup your navigation elements with an un-ordered list \<ul> and bunch of \<li>
+list.
+
+#### The \<article> element
+- Easy to confusion with \<section>
+- Used to wrap a self-contained piece of information
+- Content inside \<article> is independent
+- Example would be blog posts or new stories.
+
+#### The \<aside> element
+- Used for content that is tengentially (tiep tuyen) related to the content around it.
+- Used for sidebar, pull quotes, advertising, and group of navigation elements.
+
+#### The \<figure> and \<figcaption> elements
+- Used for illutrations, diagrams, photos, code listings, etc
+```html
+<figure class="MoneyShot">
+  <img class="MoneyShotImg" src="img/scones.jpg" alt="Incredible scones" />
+  <figcaption class="ImageCaption"> Incredible scones, picture from Wikipedia </figcaption>
+</figure>
+```
+
+#### The \<details> and \<summary> elements
+- Use to create open and close widget
+
+#### The \<header> element
+- Can be used for masthead area of site's header
+- It can also be used as an introduction to other content such as a section within an \<article> element
